@@ -13,7 +13,7 @@ import java.awt.event.*;
 public class ScoreInputClient extends Frame {
 
     private static final int    SERVER_PORT = 5000;
-    private static final String DEFAULT_IP  = "192.168.254.118";
+    private static final String DEFAULT_IP  = "";
 
     private ScoreInputUI   ui;
     private ScoreInputComm comm;
