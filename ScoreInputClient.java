@@ -1,15 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 
-/**
- * ScoreInputClient — Basketball Scoring System (Milestone 2)
- *
- * Main window for one scorer client. Connects to the BasketballScoreServer
- * on port 5000 and lets a scorer send game events in real time.
- *
- * Usage:  java ScoreInputClient [serverIP]
- *         java ScoreInputClient 192.168.1.10
- */
 public class ScoreInputClient extends Frame {
 
     private static final int    SERVER_PORT = 5000;
